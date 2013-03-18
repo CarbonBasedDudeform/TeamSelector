@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team Selector", "Team Selector\Team Selector.csproj", "{FE91137D-7FD5-44D6-87EE-28A38186C04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Team Selector.Tests", "Team Selector.Tests\Team Selector.Tests.csproj", "{245C76D9-9FBB-4EF5-8097-68FCBA71C632}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE91137D-7FD5-44D6-87EE-28A38186C04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE91137D-7FD5-44D6-87EE-28A38186C04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE91137D-7FD5-44D6-87EE-28A38186C04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE91137D-7FD5-44D6-87EE-28A38186C04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{245C76D9-9FBB-4EF5-8097-68FCBA71C632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{245C76D9-9FBB-4EF5-8097-68FCBA71C632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{245C76D9-9FBB-4EF5-8097-68FCBA71C632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{245C76D9-9FBB-4EF5-8097-68FCBA71C632}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

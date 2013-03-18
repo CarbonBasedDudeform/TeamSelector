@@ -1,0 +1,49 @@
+﻿@model Team_Selector.Models.Data
+
+@{
+    ViewBag.Title = "Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Job</h2>
+
+<div class="content">
+    <form action="/Add/AddJob" method="post">
+        Title: <input id="AJName" type="text" name="Title"/>
+        <br />
+        Start Date:
+        <br />
+        End Date:
+        <br />
+        Employees needed: @{
+            foreach (var item in Model.Roles)
+            {
+            <select>
+                @{int i = 0;
+                  <option>0</option>
+                  foreach (var employee in Model.Employees)
+                  {
+                      if (employee.Role.Title == item.Title)
+                      {
+                          i++;
+                          <option>@Html.Raw(i.ToString())</option>
+                      }
+
+                  }                                                        
+                }
+            </select>
+            @Html.DisplayFor(modelItem => item.Title)
+            @Html.Raw("(s)");
+            }
+        }
+                          
+        <br />
+        Equipment needed:
+        @{
+            
+        }
+        <br />
+        location: 
+        <input id="Submit1" type="submit" value="submit" />
+    </form>
+</div>

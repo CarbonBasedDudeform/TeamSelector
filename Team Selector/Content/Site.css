@@ -1,0 +1,169 @@
+﻿html, body {
+    background-color: #fff;
+    color: #000;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.employeeMenu {
+    overflow: auto;
+    background-color: #5898dd;
+    width: 20%;
+    height: 95%;
+    float: left;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.jobMenu {
+    overflow: auto;
+    background-color: #357AC4;
+    width: 100%;
+    height: 50%;
+    padding-top: 10px;
+}
+
+.equipmentMenu {
+    overflow: auto;
+    background-color: #1E66B3;
+    width: 100%;
+    height: 50%;
+    padding-top: 10px;
+
+}
+
+.mainArea {
+    overflow: auto;
+    background-color: #0A52A1;
+    float: left;
+    width: 59.87%;
+    height: 100%;
+    margin-top: 40px;
+    border-left: 0.2em solid #073466;
+    margin-left: 40%;
+    position: absolute;
+}
+
+.hover {
+}
+
+.topMenu {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background-color: #FFF;
+    z-index: 100;
+}
+
+.smallTopButton {
+    width: 30%;
+    height: 100%;
+    background-color: #0A52A1;
+    float: left;
+    border-bottom: 0.2em solid #073466;
+        font-size: 2em;
+    text-align:center;
+}
+
+.largeTopButton {
+    width: 40%;
+    height: 100%;
+    background-color: #0A52A1;
+    float: left;
+    border-bottom: 0.2em solid #073466;
+    font-size: 2em;
+    text-align:center;
+}
+
+.addButton {
+    background-color: #5898dd;
+    width: 100%;
+    height: 22%;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 5em;
+}
+
+.employeeRelated {
+    background-color: #5898dd;
+}
+
+.jobRelated {
+    background-color: #357AC4;
+}
+
+.equipRelated {
+    background-color: #1E66B3;
+}
+
+h2 {
+    margin-left: 2.5%;
+}
+
+.content {
+    width: 95%;
+    background-color: #7dbcff;
+    margin-left: 2.5%;
+    margin-top: 1%;
+    padding-left: 1%;
+}
+
+.employeeListItemAvailable {
+    width: 100%;
+    height: 5%;
+    background-color: #4fdb52;
+    text-align: right;
+    padding-bottom: 3%;
+    padding-right: 2%;
+}
+
+.employeeListItemUnavailable {
+    width: 100%;
+    height: 5%;
+    background-color: #fa3939;
+}
+
+.jobListItem {
+    width: 95%;
+    height: 5%;
+    padding-left: 5%;
+    padding-bottom: 3%;
+}
+
+.equipmentListItemAvailable {
+    width: 95%;
+    height: 5%;
+    padding-left: 5%;
+    background-color: #c8cf1f;
+    padding-bottom: 3%;
+}
+
+.equipmentListItemUnavailable {
+    width: 95%;
+    height: 5%;
+    padding-left: 5%;
+    background-color: #fa3939;
+}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+}
+
+.contentHeader {
+    text-align: center;
+    background-color: orange;
+    margin-top: 2.2%;
+}

@@ -1,0 +1,44 @@
+﻿@model Team_Selector.Models.Data
+
+@{
+    ViewBag.Title = "Employee";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1 class="contentHeader">Add a new employee</h1>
+
+<div class="content">
+    <form action="/Add/AddEmployee" method="post">
+        Name: <input id="AEName" type="text" name="Name"/>
+        <br />
+        <br />
+        Role: <select name="Role">@{ if (Model.Roles != null)
+                 {
+                     foreach (var item in Model.Roles)
+                     {
+                         <option style="background-color: @item.Colour">@Html.DisplayFor(modelItem => item.Title)</option>
+                     }
+                 } else {
+                     <option>Please add some roles</option>
+                 }
+        }
+
+              </select>
+        <br />
+        <br />
+        Picture (optional): <input id="AEPicture" type="file" Name="imgUrl"/>
+    
+        <input id="Submit1" type="submit" value="submit" />
+    </form>
+</div>
+
+<h2>Add a new employee role</h2>
+
+<div class="content">
+    <form action="/Add/AddEmployeeRole" method="post">
+    Title: <input id="AERTitle" type="text" name="Role" />
+    <br />
+    Colour: <input id="AERColour" type="text" name="Colour" />
+        <input id="Submit1" type="submit" value="submit" />
+    </form>    
+</div>

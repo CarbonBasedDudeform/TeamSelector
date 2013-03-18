@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Add New Items";
+}
+<div id="ADDEmployee" class="addButton hover employeeRelated">+ New Employee</div>
+<div id="ADDJob" class="addButton hover jobRelated">+ New Job</div>
+<div id="ADDEquipment" class="addButton hover equipRelated">+ New Equipment</div>
+
+<script>
+    $("#ADDEmployee").click(function () {
+        window.location.href = "/Add/Employee";
+    });
+
+    $("#ADDJob").click(function () {
+        window.location.href = "/Add/Job";
+    });
+
+    $("#ADDEquipment").click(function () {
+        window.location.href = "/Add/Equipment";
+    });
+</script>
